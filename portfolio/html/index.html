@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ambroise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/image.png" alt="Logo" class="logo-img">
+                    <div class="logo-text">Ambroise</div>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <a href="index.html" target="_self"><img src="images/home.png" alt="home" id="tous">Accueil</a>
+                    <a href="about.html"><img src="images/about.png" alt="home" id="tous">À propos</a>
+                    <a href="project.html"><img src="images/project.png" alt="home" id="tous">Projets</a>
+                    <a href="contact.html"><img src="images/contact.png" alt="home" id="tous">Contact</a>
+                    <a href="competences.html"><img src="images/competences.png" alt="home" id="tous">Compétences</a>
+                </div>
+                <div class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Salut, je suis <span>Ambroise</span></h1>
+                <p>Développeur web passionné par la création d'expériences numériques innovantes. Je transforme des idées en solutions technologiques impactantes.</p>
+                <div class="hero-buttons">
+                    <a href="project.html" class="btn">Mes projets</a>
+                    <a href="contact.html" class="btn" style="background: transparent; border: 2px solid var(--primary-color); color: var(--text-color);">Me contacter</a>
+                </div>
+            </div>
+        </div>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>À propos de moi</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/image.png" alt="Profile Image" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <h3>Développeur Web & Passionné de Technologie</h3>
+                    <p>Bonjour, je suis Ambroise, un jeune développeur web passionné par la création de sites dynamiques et interactifs. Je me spécialise dans le front-end avec HTML, CSS et JavaScript, et j'apprends chaque jour pour améliorer mes compétences.</p>
+                    <p>Je suis aussi passionné par la technologie, l'intelligence artificielle et la robotique. J'aspire à devenir informaticien militaire et à associer l'informatique à la médecine.</p>
+                    <p>En dehors du code, j'aime écrire et j'écoute souvent de la musique introspective, comme 'Pona nini' de Tiakola. Je suis fasciné par tout ce qui touche au développement personnel et aux projets innovants.</p>
+                    <div class="skills">
+                        <h4>Mes compétences</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML 5</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">CSS 3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Responsive Design</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Front-End</span>
+                            <span class="skill-tag">IA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contactez-moi</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Discutons de votre projet</h3>
+                    <p>Mon rêve est de créer des projets technologiques impactants, comme des plateformes éducatives pour apprendre la programmation ou des applications intelligentes.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Téléphone</h4>
+                                <p>+228 93 98 19 51</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>smle1254@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Localisation</h4>
+                                <p>Lomé TOGO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Sujet">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ambroise-ametoesso-587680336/" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ambroise0/nextjs-ai-chatbot" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/smle1254" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/s_m_i_l_e_r6/" class="social-link" target="_blank"><i class="fab fa-instagram" ></i></a>
+                    <a href="https://wa.me/22893981951" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.youtube.com/@Techscribe7" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p>&copy; 2025 Ambroise. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

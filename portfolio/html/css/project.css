@@ -1,0 +1,103 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: blue;
+    font-family: 'Lobster', serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #334;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #aaf;
+}
+
+.projets-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.projet-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.projet-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #eee;
+}
+
+.projet-details {
+    padding: 15px;
+}
+
+.projet-titre {
+    color: darkblue;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.projet-description {
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.projet-techno {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.projet-date {
+    color: #888;
+    font-size: 12px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
